@@ -1,3 +1,6 @@
-const fs = require("fs");
+// import superheroes from superheroes;
 
-fs.writeFile('node.txt', "I'm learning node",);
+const superheroes = require('superheroes');
+
+superheroes.all;
+console.log('I am the mighty '+ superheroes.random());
